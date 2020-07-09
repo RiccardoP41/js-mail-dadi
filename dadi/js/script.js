@@ -4,6 +4,10 @@
 // Prima di partire a scrivere codice poniamoci qualche domanda:
 // Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
+
+
+// *****CON UN DADO*****
+
 // var n1 = Math.floor(Math.random()*6) +1;
 // var n2 = Math.floor(Math.random()*6) +1;
 // var risultato;
@@ -23,6 +27,7 @@
 
 
 // *****CON DUE DADI*****
+
 var n1 = Math.floor(Math.random()*6) +1;
 var n2 = Math.floor(Math.random()*6) +1;
 var n3 = Math.floor(Math.random()*6) +1;
