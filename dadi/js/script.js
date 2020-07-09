@@ -15,11 +15,11 @@
 // document.getElementById('lancio-ai').innerHTML= "L\'AI ha fatto " + n2
 //
 // if (n1>n2) {
-//     risultato = "Vittoria!"
+//     risultato = "Vittoria!";
 // } else if (n2>n1) {
-//     risultato = "Sconfitta!"
+//     risultato = "Sconfitta!";
 // } else {
-//     risultato = "Pareggio"
+//     risultato = "Pareggio";
 // }
 //
 // document.getElementById('risultato').innerHTML= risultato;
@@ -39,11 +39,11 @@ document.getElementById('lancio-p1').innerHTML= "Hai fatto " + player
 document.getElementById('lancio-ai').innerHTML= "L\'AI ha fatto " + ai
 
 if (player>ai) {
-    risultato = "Vittoria!"
+    risultato = "Vittoria!";
 } else if (ai>player) {
-    risultato = "Sconfitta!"
+    risultato = "Sconfitta!";
 } else {
-    risultato = "Pareggio"
+    risultato = "Pareggio";
 }
 
-document.getElementById('risultato').innerHTML= risultato;
+document.getElementById('risultato').innerHTML=risultato;

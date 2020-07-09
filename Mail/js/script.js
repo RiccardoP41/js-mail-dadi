@@ -17,6 +17,7 @@ for (var i = 0; i < listaMail.length; i++) {
     }
 }
 
+// ****Aggiunto esercizio dei dadi perchè non ho capito se andava aggiunto a questo file o fatto a parte. Quindi li ho fatti entrambi****
 
 var n1 = Math.floor(Math.random()*6) +1;
 var n2 = Math.floor(Math.random()*6) +1;
@@ -25,11 +26,11 @@ document.getElementById('lancio-p1').innerHTML= "Hai fatto " + n1
 document.getElementById('lancio-ai').innerHTML= "L\'AI ha fatto " + n2
 
 if (n1>n2) {
-    risultato = "Vittoria!"
+    risultato = "Vittoria!";
 } else if (n2>n1) {
-    risultato = "Sconfitta!"
+    risultato = "Sconfitta!";
 } else {
-    risultato = "Pareggio"
+    risultato = "Pareggio";
 }
 
-document.getElementById('risultato').innerHTML= risultato;
+document.getElementById('risultato').innerHTML=risultato;
